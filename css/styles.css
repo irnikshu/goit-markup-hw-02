@@ -16,8 +16,13 @@
 body {
   background-color: #ffffff;
   color: var(--primare-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
-
+/* Лого */
+.logo {
+  font-family: Raleway, sans-serif;
+}
 .list {
   list-style: none;
 }
@@ -29,6 +34,10 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .auth-nav .link {
   color: #757575;
 }
