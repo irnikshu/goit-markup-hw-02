@@ -87,13 +87,13 @@ body {
 }
 
 /*Features-list*/
-.Features-list .title {
+.features-list .title {
   color: var (--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
-.Features-list .text {
+.features-list .text {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -141,4 +141,19 @@ body {
 .auth-footer .link:hover, 
 .auth-footer .link:focus{
   color: var(--accent-color);
+}
+/* Портфолио */
+.project-list .title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+text-decoration: none;
+}
+.project-list .text{
+color: var(--primare-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+text-decoration: none;
 }
