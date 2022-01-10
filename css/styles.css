@@ -37,7 +37,7 @@ body {
 }
 .logo-studio-white{
   color: #ffffff;
-  background-color: #2F303A;
+ 
 }
 
 .list {
@@ -63,23 +63,30 @@ body {
 .auth-nav .link {
   color: #757575;
   text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
 }
 /* Hero */
+.hero{
+ background-color: #2f303a;
+}
 .hero-title {
-  background-color: #2f303a;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
 }
 /* Section */
 .section-title {
-  color: var (--title-text-color);
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -87,11 +94,14 @@ body {
 }
 
 /*Features-list*/
+
+
 .features-list .title {
-  color: var (--title-text-color);
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .features-list .text {
   font-size: 14px;
@@ -105,9 +115,17 @@ body {
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
+  font-family: inherit;
 }
 .button-portfolio{
-   cursor: pointer;
+cursor: pointer;
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
 }
 .button-portfolio:hover,
 .button-portfolio:focus{
@@ -117,6 +135,9 @@ body {
 
 
 /* Our team */
+.section-team{
+  background-color: #F5F4FA;
+}
 .team-list .member {
   font-weight: 500;
   font-size: 16px;
@@ -128,11 +149,15 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  color: #757575;
 }
 /* Футер */
+footer{
+  background-color: #2F303A;
+}
 .auth-footer .link{
   color:  rgba(255, 255, 255, 0.6);
-  background-color: #2F303A;
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -142,7 +167,16 @@ body {
 .auth-footer .link:focus{
   color: var(--accent-color);
 }
+.addres{
+color: var(--primare-white-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+font-style: normal;
+
 /* Портфолио */
+
 .project-list .title {
 color: var(--title-text-color);
 font-weight: 700;
