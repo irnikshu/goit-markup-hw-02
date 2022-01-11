@@ -106,6 +106,7 @@ body {
 .features-list .text {
   font-size: 14px;
   line-height: 1.71;
+  color: var(--primare-text-color);
 }
 /* Button */
 .button {
@@ -177,17 +178,27 @@ font-style: normal;
 
 /* Портфолио */
 
-.project-list .title {
+/* .project-list .title {
 color: var(--title-text-color);
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
 text-decoration: none;
+} */
+
+
 }
 .project-list .text{
-color: var(--primare-text-color);
+color: #757575;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
+text-decoration: none;
+}
+.project-list .title{
+color: #212121;
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
 text-decoration: none;
 }
